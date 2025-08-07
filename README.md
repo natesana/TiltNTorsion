@@ -25,7 +25,8 @@ This repository calculates tilt and torsional angles of protein domains from an 
 ## Usage
 
 1. **Edit config file**: `utils/config.json`
-```json
+```
+json
 {
   "structure_file": "../input_example/structure.pdb",
   "trajectory_file": "../input_example/trajectory.xtc",
