@@ -21,24 +21,22 @@ This repository calculates tilt and torsional angles of protein domains from an 
     pip install -r requirements.txt
 
 
-
 ## Usage
-
 1. **Edit config file**: `utils/config.json`
-```json
-{
-  "structure_file": "../input_example/structure.pdb",
-  "trajectory_file": "../input_example/trajectory.xtc",
-  "skip": 10,
-  "segid1": "CHA1",
-  "resid1": 434,
-  "resid2": 398,
-  "segid2": "CHA2",
-  "resid3": 770,
-  "resid4": 1010,
-  "output_tilt": "../output/tilt_angles.dat",
-  "output_torsion": "../output/torsion_angles.dat"
-}
+
+    {
+        "structure_file": "../input_example/structure.pdb",
+        "trajectory_file": "../input_example/trajectory.xtc",
+        "skip": 10,
+        "segid1": "CHA1",
+        "resid1": 434,
+        "resid2": 398,
+        "segid2": "CHA2",
+        "resid3": 770,
+        "resid4": 1010,
+        "output_tilt": "../output/tilt_angles.dat",
+        "output_torsion": "../output/torsion_angles.dat"
+    }
 ```
 
 2. **Run VMD Tcl script**:
