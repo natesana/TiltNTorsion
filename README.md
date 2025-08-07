@@ -18,7 +18,7 @@ This repository calculates tilt and torsional angles of protein domains from an 
 
 ## Installation
 ```
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ```
 
