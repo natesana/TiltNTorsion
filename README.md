@@ -17,10 +17,10 @@ This repository calculates tilt and torsional angles of protein domains from an 
 - Python packages: numpy, pandas, matplotlib
 
 ## Installation
-```
+
     pip install -r requirements.txt
 
-```
+
 
 ## Usage
 
