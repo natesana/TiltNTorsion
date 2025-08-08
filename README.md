@@ -1,8 +1,8 @@
 # TiltNTorsion
 This repository calculates tilt and torsional angles of protein domains from an MD trajectory using VMD and TCL, and analyzes their energy profiles using Python. Useful to study conformational changes in proteins to check for which motions are energetically favourable.
 
-```markdown
-# MD Angle Analysis
+
+## MD Angle Analysis
 
 This repository calculates tilt and torsional angles of protein domains from an MD trajectory using VMD and TCL, and analyzes their energy profiles using Python.
 
@@ -17,12 +17,12 @@ This repository calculates tilt and torsional angles of protein domains from an 
 - Python packages: numpy, pandas, matplotlib
 
 ## Installation
-
+```
     pip install -r requirements.txt
-
+```
 
 1. **Edit config file**: `utils/config.json`
-
+```
     {
         "structure_file": "../input_example/structure.pdb",
         "trajectory_file": "../input_example/trajectory.xtc",
@@ -49,6 +49,7 @@ python scripts/analyze_energy.py
 ```
 
 ## Outputs
+```
 - `tilt_angles.dat`: Frame-wise tilt angles
 - `torsion_angles.dat`: Frame-wise torsion angles
 - `energy_map.png`: Free energy map of tilt vs torsion
