@@ -36,7 +36,7 @@ This repository calculates tilt and torsional angles of protein domains from an 
         "output_tilt": "../output/tilt_angles.dat",
         "output_torsion": "../output/torsion_angles.dat"
     }
-
+```
 
 2. **Run VMD Tcl script**:
 ```
