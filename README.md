@@ -21,9 +21,8 @@ This repository calculates tilt and torsional angles of protein domains from an 
     pip install -r requirements.txt
 
 
-## Usage
 1. **Edit config file**: `utils/config.json`
-
+```
     {
         "structure_file": "../input_example/structure.pdb",
         "trajectory_file": "../input_example/trajectory.xtc",
